@@ -14,15 +14,15 @@ Este é um jogo da cobrinha implementado em JavaScript, HTML e CSS. O objetivo d
 
 ## Estrutura do Projeto:
 
-- O projeto contém os seguintes arquivos:
+### O projeto contém os seguintes arquivos:
 
-1. index.html: Contém a estrutura básica da página e os elementos necessários para o jogo.
-2. style.css: Define o estilo visual do jogo, incluindo o tabuleiro, a cobra, e os elementos de interface do usuário.
-3. script.js: Contém toda a lógica do jogo, incluindo:
-3.1.  Controle do movimento da cobra.
-3.2. Geração de peças no tabuleiro.
-3.3. Detecção de colisões.
-3.4. Pontuação e lógica de "Game Over".
+- index.html: Contém a estrutura básica da página e os elementos necessários para o jogo.
+- style.css: Define o estilo visual do jogo, incluindo o tabuleiro, a cobra, e os elementos de interface do usuário.
+- script.js: Contém toda a lógica do jogo, incluindo:
+1. Controle do movimento da cobra.
+2. Geração de peças no tabuleiro.
+3. Detecção de colisões.
+4. Pontuação e lógica de "Game Over".
 
 ## Como Jogar:
 
@@ -41,8 +41,8 @@ Este é um jogo da cobrinha implementado em JavaScript, HTML e CSS. O objetivo d
 
 - A cobra cresce ao coletar peças.
 - O jogo termina se a cobra colidir com:
-1. As bordas do tabuleiro.
-2. Seu próprio corpo.
+  1. As bordas do tabuleiro.
+  2. Seu próprio corpo.
 - Pontos adicionais são concedidos ao coletar peças especiais (vermelhas).
 - A velocidade aumenta automaticamente ao longo do tempo.
 
